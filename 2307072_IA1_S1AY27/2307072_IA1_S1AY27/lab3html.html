@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="lab3css.css">
+</head>
+<body>
+
+<header id="home">
+    <h1>University of Technology, Jamaica</h1>
+    <h2>Student Profile Page</h2>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <div class="about">
+            <img src="Assets/studentidpic.png" alt="Student Photo">
+
+            <div>
+                <h3>Matthew Sullivan</h3>
+
+                <p><b>Programme:</b> Bachelor in Computer Science</p>
+
+                <p>
+                    <b>Year:</b>
+                    <span>Year 3</span>
+                </p>
+
+                 <p>
+                    <b>School:</b>
+                    <span>SCIT</span>
+                </p>
+
+                <p>
+                    My name is Matthew Sullivan and I am a programmer who loves
+                    game design, website creation and art.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="courses">
+        <h2>Courses</h2>
+
+        <ul>
+            <li>Web Programming</li>
+            <li>Discrete Mathematics</li>
+            <li>Computer Logics and Digital Design</li>
+            <li>Introduction to Psychology</li>
+        </ul>
+    </section>
+
+
+    <section id="schedule">
+        <h2>Weekly Timetable</h2>
+
+        <table>
+            <tr>
+                <th>Course</th>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+ <tr>
+                <td>Discrete Mathematics</td>
+                <td>Tuesday</td>
+                <td>12 - 1 PM</td>
+            </tr>
+
+            <tr>
+                <td>Web Programming</td>
+                <td>Monday</td>
+                <td>6 - 8 PM</td>
+            </tr>
+
+            <tr>
+                <td>Introduction To Psychology</td>
+                <td>Saturday</td>
+                <td>3 - 5 PM</td>
+            </tr>
+
+            <tr>
+                <td>Computer Logics and Digital Design</td>
+                <td>Thursday</td>
+                <td>6 - 8 PM</td>
+            </tr>
+        </table>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+       <form action="mailto:matisherern@gmail.com?subject=Student%20Profile%20Contact" method="post" enctype="text/plain">
+
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="Name" required>
+
+    <br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="Email" required>
+
+    <br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="Message" rows="5" required></textarea>
+
+    <br><br>
+
+    <button type="submit">Submit</button>
+
+</form>
+    </section>
+
+</main>
+
+
+<footer>
+    <p>Matthew Sullivan | <span>&copy; 2026</span></p>
+</footer>
+
+</body>
+
+</html>
